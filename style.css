@@ -1,0 +1,42 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.american-flag {
+  width: 70%;
+  height: 500px; 
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.stripe {
+  flex: 1; /* Stripes have equal space */
+  width: 100%;
+}
+
+.red {
+  background-color: #b31942;
+}
+
+.white {
+  background-color: white;
+}
+
+.stars-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 53.846%; /* covers 7 stripes */
+  background-color: #0a3161;
+}
+
+.stars-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
