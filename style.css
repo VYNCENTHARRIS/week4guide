@@ -1,0 +1,32 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.checkerboard {
+    display: grid;
+    grid-template-columns: repeat(8, 100px); /* 8-columns 100px wide */
+    grid-template-rows: repeat(8, 100px); /* 100px 8 row */
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border-radius: 1px;
+    border: 1px solid black;
+}
+
+/* Alternating black and white squares, */
+#div1, #div3, #div5, #div7, #div10, #div12, #div14, #div16,
+#div17, #div19, #div21, #div23, #div26, #div28, #div30, #div32,
+#div33, #div35, #div37, #div39, #div42, #div44, #div46, #div48,
+#div49, #div51, #div53, #div55, #div58, #div60, #div62, #div64 {
+    background-color: black;
+}
+
+#div2, #div4, #div6, #div8, #div9, #div11, #div13, #div15,
+#div18, #div20, #div22, #div24, #div25, #div27, #div29, #div31,
+#div34, #div36, #div38, #div40, #div41, #div43, #div45, #div47,
+#div50, #div52, #div54, #div56, #div57, #div59, #div61, #div63 {
+    background-color: white;
+}
